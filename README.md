@@ -21,14 +21,6 @@ Ele permite que as solicitações sejam registradas, atribuídas a técnicos res
 - [ ] Abertura do chamado
 - [ ] Encerramento do chamado
 
-## 📦 Install
-
-
-```bash
-yarn add
-```
-
-
 ## 🔗 Links
 
 - [Login](https://callsystem.netlify.app/)
@@ -36,6 +28,12 @@ yarn add
 - [Home](https://callsystem.netlify.app/home)
 - [Chamados](https://callsystem.netlify.app/call)
 
+
+## 📦 Install
+
+```bash
+yarn add
+```
 
 ## 💻 Pré-requisítos para rodar aplicação
 

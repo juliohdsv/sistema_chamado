@@ -5,8 +5,15 @@ import Icon from "../../assets/images/logo.png";
 
 export default function SingUp(){
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState(null);
+  const [password, setPassword] = useState(null);
+
+function teste(){
+
+  console.log(email);
+  console.log(password);
+  
+}
 
   return(
     <div 
@@ -58,6 +65,7 @@ export default function SingUp(){
                 type="submit" 
                 value="Registrar"
                 className="w-10/12 h-8 btn-form"
+                onClick={teste()}
               />
 
               <Link
